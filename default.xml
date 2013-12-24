@@ -30,7 +30,7 @@
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-4.4" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-4.4"/>
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-4.4" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="dalvik" name="android_dalvik" remote="omnirom" revision="android-4.4" />
   <project path="developers/build" name="platform/developers/build" />
@@ -38,6 +38,9 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" />
+  <project path="device/samsung/trebon" name="TheWhisp/android_device_samsung_s7500" groups="device,msm7x72a-common" revision="cm-10.2" />
+  <project path="device/samsung/msm7x72a" name="TheWhisp/android_device_samsung_msm7x27a-common" groups="device,msm7x72a-common" revision="cm-10.2 />
+  <project path="device/samsung/msm7x72a-kernel" name="TheWhisp/android_kernel_samsung_msm7x27a" groups="device,msm7x72a-common" revision="cm-11.0 />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
